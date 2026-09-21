@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+main > *{
+  padding: 0 100px;
+}
+header{
+  height: 100px;
+  background: #FFF7ED;
+}
+header nav{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  padding: 5px 16px;
+
+}
+nav a.actual-location{
+  text-decoration: underline;
+}
+nav h1{
+  font-weight: 800;
+
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 5px;
+}
+nav ul li{
+  font-weight: 500;
+}
